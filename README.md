@@ -24,7 +24,7 @@ Add the box to Vagrant
 vagrant box add nixos-16.09-x86_64 nixos-16.09-x86_64-virtualbox.box
 ```
 
-Run Vagrant Image
+Run Vagrant Box
 ----------------
 
 ```bash
