@@ -23,7 +23,7 @@ packer build template.json
 The .box image is now ready to go. Install it into Vagrant via:
 
 ```bash
-vagrant box add nixos-14.02-x86_64 nixos-14.02-x86_64-virtualbox.box
+vagrant box add nixos-16.09-x86_64 nixos-16.09-x86_64-virtualbox.box
 ```
 
 Run Vagrant Image
