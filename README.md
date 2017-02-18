@@ -37,3 +37,8 @@ What is NixOS, anyway?
 ----------------------
 
 [NixOS](http://nixos.org) is a linux distribution with a purely functional package manager.
+
+Want to learn more about NixOS + Haskell?
+-----------------------------------------
+https://github.com/Gabriel439/haskell-nix
+https://ocharles.org.uk/blog/posts/2014-02-04-how-i-develop-with-nixos.html
