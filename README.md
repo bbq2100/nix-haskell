@@ -12,13 +12,13 @@ How to use?
 Build Vagrant Box
 -------------------
 
-Install [packer](http://packer.io) and [virtualbox](https://www.virtualbox.org).
+Install [packer](http://packer.io) and [virtualbox](https://www.virtualbox.org)
 
 ```bash
 packer build template.json
 ```
 
-Add the box to Vagrant.
+Add the box to Vagrant
 
 ```bash
 vagrant box add nixos-16.09-x86_64 nixos-16.09-x86_64-virtualbox.box
