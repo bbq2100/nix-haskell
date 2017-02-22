@@ -6,6 +6,10 @@ set -x
 # Upgrade.
 nixos-rebuild switch --upgrade
 
+# Add package channel
+nix-channel --add https://nixos.org/channels/nixos-16.09-small nixpkgs
+nix-channel --update nixpkgs
+
 # Cleanup any previous generations and delete old packa
 nix-collect-garbage -d
 

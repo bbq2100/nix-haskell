@@ -48,10 +48,16 @@
         ]
     }],
     "provisioners": [{
-        "type": "shell",
-        "execute_command": "sudo sh '{{.Path}}'",
-        "script": "scripts/postinstall.sh"
-    }],
+            "type": "shell",
+            "execute_command": "sudo sh '{{.Path}}'",
+            "script": "scripts/postinstall.sh"
+        },
+        {
+            "type": "file",
+            "source": "provision/.emacs",
+            "destination": "/home/vagrant/.emacs"
+        }
+    ],
     "post-processors": [{
         "type": "vagrant",
         "output": "{{ user `vm_name` }}-{{.Provider}}.box"
