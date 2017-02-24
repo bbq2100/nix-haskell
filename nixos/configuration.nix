@@ -23,7 +23,7 @@
        self.stylish-haskell
        self.hasktags
      ]))
-    (import /home/vagrant/emacs.nix { inherit pkgs; })
+    (import ./emacs.nix { inherit pkgs; })
   ];
 
 

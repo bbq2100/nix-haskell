@@ -29,6 +29,7 @@
             "curl http://{{ .HTTPIP }}:{{ .HTTPPort }}/guest-virtualbox.nix > /mnt/etc/nixos/guest.nix<enter><wait>",
             "curl http://{{ .HTTPIP }}:{{ .HTTPPort }}/users-vagrant.nix > /mnt/etc/nixos/users.nix<enter><wait>",
             "curl http://{{ .HTTPIP }}:{{ .HTTPPort }}/vagrant.nix > /mnt/etc/nixos/vagrant.nix<enter><wait>",
+            "curl http://{{ .HTTPIP }}:{{ .HTTPPort }}/emacs.nix > /mnt/etc/nixos/emacs.nix<enter><wait>",
             "nixos-install && reboot<enter>"
         ],
         "guest_additions_mode": "disable",
