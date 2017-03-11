@@ -11,6 +11,7 @@
   environment.systemPackages = with pkgs; [
     git
     nix-prefetch-git
+    mc
     ghc
     cabal2nix
     (haskellPackages.ghcWithPackages (self : [
